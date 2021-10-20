@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Nhân Shop</title>
+		<link rel="stylesheet" href="css\main.css">
+		<link rel="stylesheet" href="css\base.css">
+		<link rel="stylesheet" href="fontawesome-free-5.15.1-web\css\all.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="modal" class="modal" >
+            <div class="modal__overlay"></div>
+            <div class="modal__body">
+                <!--Form sign up -->
+                <div id="formsignup" class="formlog__container">
+                    <div class="formlog"><form action="signup.php" method="POST">
+                            <div class="formlog__header">
+                                <h3 class="formlog-heading">Đăng ký</h3>
+                            </div>
+                            <div class="formlog__form">
+                                <input type="text" name="email"	class="formlog__input" placeholder="Email của bạn">
+                                <input type="password" name="pass"	class="formlog__input" placeholder="Mật khẩu của bạn. 8-16 ký tự">
+                                <input type="password" name="repass"	class="formlog__input" placeholder="Nhập lại mật khẩu">
+                                <input type="text" name="hoten" class="formlog__input" placeholder="Họ và tên của bạn">
+                                <input type="text" name="diachi" class="formlog__input" placeholder="Địa chỉ của bạn">
+                                <input type="text" name="sdt"	class="formlog__input" placeholder="Số điện thoại của bạn">
+                            </div>
+                            <div class="formlog__rule">
+                                <p class="formlog__rule-text">
+                                    Bằng việc đăng ký, bạn đồng ý với Nhân Shop về <a href="">Điều khoản dịch vụ</a> và <a href="">chính sách bảo mật</a>
+                                </p>
+                            </div>
+                            <div class="formlog__controls">
+                                <button class="btn"><a href="index.php" style="text-decoration: none;">TRỞ LẠI</a></button>
+                                <button class="btn btn--primary" type="submit">ĐĂNG KÝ</button>
+                            </div></form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
